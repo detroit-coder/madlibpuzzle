@@ -1,0 +1,24 @@
+body {
+    background: url(madlib.png) no-repeat center bottom;
+    -webkit-background-size: center; 
+    -moz-background-size: center;    
+    -o-background-size: center;
+    background-position: center top;
+    padding: 250px;
+}
+
+#topMenu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#topMenu input {
+    width: 50%;
+}
+
+.headerCenter, .error {
+    text-align: center;
+    margin-bottom: 25px;
+}
